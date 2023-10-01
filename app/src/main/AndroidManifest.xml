@@ -15,6 +15,11 @@
             android:label="@string/title_activity_b"
             android:theme="@style/Theme.AndroidActivityLifecycle.NoActionBar" />
         <activity
+            android:name=".ActivityC"
+            android:exported="false"
+            android:label="@string/title_activity_c"
+            android:theme="@style/Theme.AndroidActivityLifecycle.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true" >
             <intent-filter>
